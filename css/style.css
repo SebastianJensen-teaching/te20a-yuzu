@@ -8,15 +8,22 @@
 }
 
 header {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: teal;
+  background: rgb(120, 251, 234);
+  background: linear-gradient(
+    180deg,
+    rgba(120, 251, 234, 1) 0%,
+    rgba(100, 165, 221, 1) 23%,
+    rgba(47, 91, 111, 1) 100%
+  );
 }
 
 nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 nav a {
@@ -24,10 +31,11 @@ nav a {
   text-decoration: none;
   line-height: 4;
   color: white;
+  text-shadow: #333 2px 2px;
 }
 
 nav a:hover {
-  background-color: rgb(67, 85, 85);
+  color: orange;
 }
 
 .social-panel a {
@@ -37,9 +45,13 @@ nav a:hover {
   color: white;
 }
 
+.social-panel img {
+  width: 32px;
+}
+
 .column-container {
   padding: 30px;
-  background-color: teal;
+  background: rgba(47, 91, 111, 1);
   display: flex;
 }
 
@@ -69,13 +81,14 @@ nav a:hover {
 .column img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .button-full {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  color: teal;
+  color: rgba(47, 91, 111, 1);
   font-size: 21px;
   text-decoration: none;
   display: inline-block;
