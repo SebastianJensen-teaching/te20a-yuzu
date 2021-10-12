@@ -106,3 +106,37 @@ nav a:hover {
   display: inline-block;
   margin-top: 20px;
 }
+
+.key-features {
+  padding: 30px;
+  display: flex;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.key-features .column-30 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  gap: 30px;
+}
+
+.news-column {
+  background-color: purple;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.news p {
+  margin-top: 30px;
+}
