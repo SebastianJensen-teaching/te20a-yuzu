@@ -36,3 +36,60 @@ nav a:hover {
   line-height: 4;
   color: white;
 }
+
+.column-container {
+  padding: 30px;
+  background-color: teal;
+  display: flex;
+}
+
+.column-container h2 {
+  color: white;
+}
+
+.column-container p {
+  margin-top: 30px;
+  color: white;
+}
+
+.column-40 {
+  width: 40%;
+}
+
+.column {
+  width: 50%;
+}
+
+.column-60 {
+  width: 60%;
+}
+
+.column-40 img,
+.column-60 img,
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.button-full {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: teal;
+  font-size: 21px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.button-hollow {
+  background-color: transparent;
+  padding: 20px;
+  border: 2px white solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
